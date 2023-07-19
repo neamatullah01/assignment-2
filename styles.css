@@ -420,4 +420,30 @@
         align-items: center;
         gap: 60px;
     }
+
+    /* section-2 */
+    .sec2-container{
+        flex-direction: column;
+    }
+    .sec2-images{
+        width: 280px;
+        height: 300px;
+        padding-bottom: 200px;
+    }
+    .sec2-img1{
+        width: 100%;
+    }
+    .sec2-img2{
+        width: 120px;
+        height: 150px;
+        right: 60px;
+        bottom: 100px;
+    }
+
+    .sec3-container1, .sec3-container2{
+        grid-template-columns: 1fr;
+        place-content: center;
+        padding-left: 90px;
+    }
+    
 }
