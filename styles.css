@@ -466,4 +466,20 @@
         border-radius: 15px;
     }
 
+    /* footer */
+    .footer-container{
+        padding-top: 30px;
+        height: 80vh;
+    }
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+    }
+    .footer-description1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+    }
+
 }
